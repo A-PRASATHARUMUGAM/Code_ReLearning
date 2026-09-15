@@ -1,0 +1,88 @@
+1. First 60–90 minutes — Core coding
+
+Revise these only:
+
+--- JavaScript ---
+
+var, let, const
+== vs ===
+arrays and objects
+map(), filter(), reduce()
+promises
+async/await
+callbacks
+closures
+DOM basics
+
+--- Basic coding problems   ---
+
+Reverse a string
+
+
+Palindrome
+Find largest/smallest number
+Remove duplicates from an array
+Count characters
+Find even/odd numbers
+FizzBuzz
+Factorial
+Fibonacci
+Sum of array elements
+
+
+2. Next 60 minutes — React
+
+Be ready to explain:
+
+What is React?
+Components
+Props vs state
+useState
+useEffect
+useContext
+Controlled components
+Conditional rendering
+Lists and keys
+API calls
+React Router
+Why React?
+
+Especially prepare one real API flow from your project:
+
+UI → API call → Backend → Database → Response → UI
+
+
+
+| Priority      | Problem                       |
+|-----------------------------------------------|
+| ⭐⭐⭐      | Reverse String                |
+| ⭐⭐⭐      | Palindrome                    |
+
+| ⭐⭐⭐      | Largest Number                |
+| ⭐⭐⭐      | Smallest Number               |
+| ⭐⭐⭐      | Remove Duplicates             |
+| ⭐⭐⭐      | Character Count               |
+| ⭐⭐⭐      | Even/Odd                      |
+| ⭐⭐⭐      | FizzBuzz                      |
+| ⭐⭐⭐      | Factorial                     |
+| ⭐⭐⭐      | Fibonacci                     |
+| ⭐⭐⭐      | Array Sum                     |
+| ⭐⭐⭐      | Second Largest                |
+| ⭐⭐⭐      | Prime Number                  |
+| ⭐⭐⭐      | Reverse Number                |
+| ⭐⭐⭐      | Sum of Digits                 |
+| ⭐⭐⭐      | Anagram                       |
+| ⭐⭐⭐      | First Non-Repeating Character |
+| ⭐⭐⭐      | Find Duplicates               |
+| ⭐⭐⭐      | Missing Number                |
+| ⭐⭐⭐      | Common Elements               |
+| ⭐⭐⭐      | Move Zeroes                   |
+| ⭐⭐⭐      | Two Sum                       |
+| ⭐⭐⭐      | Array Reverse                 |
+| ⭐⭐⭐      | Frequency Count               |
+| ⭐⭐⭐      | Sort Array                    |
+| ⭐⭐⭐      | Binary Search                 |
+| ⭐⭐⭐      | Flatten Array                 |
+| ⭐⭐⭐      | Object/Array Manipulation     |
+| ⭐⭐⭐      | `map()` implementation        |
+| ⭐⭐⭐      | `filter()` / `reduce()`       |
