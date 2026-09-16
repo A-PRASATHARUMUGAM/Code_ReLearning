@@ -1,33 +1,27 @@
+
+
 function isPalindrome(str){
+
+let result = ""
+
+for(let i=str.length-1; i>=0 ; i--){
+
+  result += str[i];
+
   
-    let reversed=str.split('').reverse().join('');
-
-     let result = str === reversed;
-
-     return result
-
 }
-
-console.log(isPalindrome("madam"));
-
+ if(result === str)
 
 
+    {
+        console.log("isPalindrom ",result);
+        
 
-
-function ReversedString(str){
-
-    let result =""
-
-    for(let i = str.length-1; i>=0; i--){
-
-        result +=str[i]
+    } else{
+          console.log("isnotPalindrom ",str);
     }
-
-    return result ;
-
-
+    
 }
 
-console.log(ReversedString([1,2,3]));
- 
 
+isPalindrome("prasath")
