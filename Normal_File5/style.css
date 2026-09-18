@@ -13,7 +13,8 @@ h1{
     color:white;
     border:1px solid white;
     display: flex;
-    justify-content: center;    background-color: lightcoral;
+    justify-content: center;
+    background-color: lightcoral;
     padding: 10px;
 
 }
