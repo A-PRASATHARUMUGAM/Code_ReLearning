@@ -2,9 +2,9 @@ import './index.css'
 
 function App() {
 
+  console.log("Hello World");
 
-
-
+  
   return (
     <>
       
@@ -12,10 +12,12 @@ function App() {
 
          <h1>Hello World!</h1>
       </div>
-    
+     
       
     </> 
   )
 }
 
 export default App
+
+
