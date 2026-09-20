@@ -1,8 +1,16 @@
+import { useState } from 'react';
 import './index.css'
 
 function App() {
 
   console.log("Hello World");
+
+  const [count,setCount] = useState(0);
+
+  function incrementbtn(){
+            
+      setCount(count+1); 
+  }
 
   
   return (
@@ -10,7 +18,15 @@ function App() {
       
       <div className='bg-blue-300 text-white'>
 
-         <h1>Hello World!</h1>
+        <button onClick={incrementbtn} >+</button>
+
+         <h1  >Hello World! {count}</h1>
+
+
+
+
+
+
       </div>
      
       
