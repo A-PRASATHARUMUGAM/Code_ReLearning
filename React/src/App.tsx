@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './index.css'
+import {Counters as Cont} from "./components/Counters"
 
 function App() {
 
@@ -19,6 +20,8 @@ function App() {
         <button onClick={incrementbtn} >+</button>
 
          <h1  >Hello World! {count}</h1>
+
+         <Cont/>
       </div>
      
       
