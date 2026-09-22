@@ -3,8 +3,6 @@ import './index.css'
 
 function App() {
 
-  console.log("Hello World");
-
   const [count,setCount] = useState(0);
 
   function incrementbtn(){
@@ -21,12 +19,6 @@ function App() {
         <button onClick={incrementbtn} >+</button>
 
          <h1  >Hello World! {count}</h1>
-
-
-
-
-
-
       </div>
      
       
