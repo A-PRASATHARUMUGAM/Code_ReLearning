@@ -1,0 +1,21 @@
+Chapters
+01:23 JavaScript Quick Wins
+13:00 VS Code Shortcuts for JS
+23:45 let vs const vs var
+32:16 Template Literals
+
+37:25 Destructuring Objects & Arrays
+01:04:24 Module 2 – Code Style That Saves Time
+01:05:06 Arrow Functions
+01:07:39 Ternary Operator
+01:11:45 Default Parameters
+01:14:17 Optional Chaining
+01:18:43 Optional Chaining + Ternary
+01:21:59 Clean Function Returns
+01:24:23 Module 3 – Practical Logic Tricks
+01:25:32 Count Occurrences in Array
+01:32:32 Finding Duplicates in Array
+01:38:09 Module 4 – Browser JavaScript Tips
+01:39:39 JavaScript Before DOM Ready
+01:45:36 Storing Extra Data Using JS Variables
+01:53:28 Conclusion
