@@ -19,3 +19,205 @@ Chapters
 01:39:39 JavaScript Before DOM Ready
 01:45:36 Storing Extra Data Using JS Variables
 01:53:28 Conclusion
+
+
+
+Educational Qualification
+1.Bachelor’s Degree in: Computer Science
+2.Information Technology
+3.Computer Engineering
+4.Software Engineering
+5.Electronics / related Engineering field
+6.Bachelor of Computer Applications (BCA)
+7.Master of Computer Applications (MCA)
+8.Any related field
+Relevant certifications, internships, academic projects, or practical experience in React.js, React Native, JavaScript, frontend development, or mobile application development will be an added advantage.
+? Key Responsibilities
+1.Develop and maintain web applications using React.js.
+2.Develop and maintain cross-platform mobile applications using React Native.
+3.Convert Figma/Adobe XD designs into responsive and reusable UI components.
+4.Integrate and consume REST APIs using Axios or similar libraries.
+5.Implement real-time application features using WebSockets.
+6.Manage application state using Redux, Redux Toolkit, or Context API.
+7.Implement local data storage and caching using localStorage, IndexedDB, AsyncStorage, or MMKV.
+8.Implement navigation using React Router and React Navigation.
+9.Integrate Firebase services including Authentication and Push Notifications.
+10.Handle loading, success, error, and API response states effectively.
+11.Optimize applications for performance, scalability, and reliability.
+12.Debug, test, and resolve frontend issues across web and mobile applications.
+13.Participate in code reviews and follow frontend development best practices.
+14.Collaborate with backend developers, designers, QA engineers, and product teams.
+15.Understand existing codebases and contribute to ongoing projects.
+16.Maintain clean, reusable, scalable, and maintainable frontend code.
+17.Use Git and follow proper version-control workflows.
+18.Support application builds and deployment-related activities when required.
+? Required Technical Skills
+1.React.js fundamentals
+2.React Native fundamentals
+3.Component-based architecture
+4.Functional components
+5.Props and state management
+6.Reusable component development
+7.React Hooks
+8.Application lifecycle concepts
+9.Web and mobile application development
+JavaScript (ES6+)
+1.JavaScript fundamentals
+2.Promises
+3.Async/Await
+4.Array methods
+5.Destructuring
+6.Spread and Rest operators
+7.Modules and Import/Export
+8.Closures and Callbacks
+9.Error handling
+10.Event handling
+State Management
+1.Redux
+2.Redux Toolkit
+3.Context API
+4.Global and local state management
+5.Handling loading, success, and error states
+6.Managing application-level data flow
+API Integration
+1.REST API integration
+2.Axios
+3.Request and response handling
+4.API authentication
+5.Token-based authentication
+6.API error handling
+7.Loading-state management
+8.Basic API debugging
+WebSockets & Real-Time Features
+1.Understanding WebSocket communication
+2.Connecting applications to WebSocket servers
+3.Handling real-time messages and events
+4.Connection and disconnection handling
+5.Reconnection handling
+6.Real-time chat implementation
+7.Notifications and live updates
+Navigation
+1.React Navigation
+2.React Router
+3.Navigation stacks
+4.Routes
+5.Route parameters
+6.Navigation state management
+UI Development
+1.HTML5
+2.CSS3
+3.Responsive UI development
+4.CSS Flexbox
+5.Reusable UI components
+6.Figma/Adobe XD implementation
+7.Responsive layouts for different screen sizes
+8.Mobile-friendly interface development
+Local Storage & Caching
+1.localStorage
+2.IndexedDB
+3.AsyncStorage
+4.MMKV
+5.Session data storage
+6.User preferences
+7.API data caching
+8.Local application state persistence
+Firebase
+1.Firebase project initialization
+2.Firebase Authentication
+3.Firebase Cloud Messaging (FCM)
+4.Push notification implementation
+5.Push notification handling
+6.Basic Firebase configuration for web and mobile applications
+Build & Run
+Mobile:
+1.Ability to run React Native applications using Android Studio.
+2.Understanding of Android emulators.
+3.Ability to test applications on physical Android devices.
+4.Basic familiarity with Xcode and iOS simulators/devices is preferred.
+Web:
+1.Ability to run React.js projects using npm/yarn
+2.Understanding of development builds.
+3.Understanding of production builds.
+4.Basic understanding of frontend build processes.
+Debugging
+1.Browser Developer Tools
+2.Debugging React.js applications
+3.Debugging React Native applications
+4.Identifying UI issues
+5.Identifying API issues
+6.Identifying state-management issues
+7.Identifying navigation issues
+8.Reading and understanding basic error logs
+Git & Version Control
+1.Cloning repositories
+2.Creating branches
+3.Switching branches
+4.Pulling and pushing code
+5.Creating meaningful commits
+6.Creating pull requests
+7.Reviewing pull requests
+8.Resolving merge conflicts
+9.Understanding Git workflows
+10.Keeping local branches synchronized with remote repositories
+⭐ Preferred Skills
+1.Strong understanding of React.js and React Native.
+2.Experience working on real-world web and mobile applications.
+3.Strong understanding of JavaScript ES6+.
+4.Experience with REST API integration.
+5.Knowledge of WebSockets and real-time application development.
+6.Experience with Redux or Redux Toolkit.
+7.Experience with Firebase services.
+8.Experience with local storage and caching mechanisms.
+9.Familiarity with Bootstrap or Tailwind CSS.
+10.Understanding of mobile application deployment basics.
+11.Exposure to Agile/Scrum methodologies.
+12.Experience working with CI/CD workflows.
+13.Basic understanding of application performance optimization.
+14.Familiarity with testing and debugging tools.
+15.Good understanding of responsive UI development.
+? Eligibility
+1.Bachelor’s degree in Computer Science, IT, Engineering, BCA, MCA, or a related field.
+2.1–2 years of frontend development experience.
+3.Practical experience with React.js and React Native.
+4.Strong understanding of JavaScript ES6+.
+5.Knowledge of REST API integration.
+6.Familiarity with Redux, Redux Toolkit, or Context API.
+7.Understanding of WebSockets and real-time communication.
+8.Knowledge of React Navigation and React Router.
+9.Familiarity with Firebase services.
+10.Basic knowledge of local storage and caching.
+11.Basic understanding of Git and version control.
+12.Strong analytical and problem-solving skills.
+13.Good communication and teamwork skills.
+14.Candidates with practical projects and hands-on development experience are encouraged to apply.
+? Key Performance Indicators (KPIs)
+1.Timely completion of assigned development tasks.
+2.Quality and maintainability of frontend code.
+3.UI implementation accuracy.
+4.API integration quality.
+5.Application performance and responsiveness.
+6.Bug identification and resolution.
+7.WebSocket and real-time feature implementation.
+8.Code review participation and Git workflow compliance.
+9.Successful implementation of responsive web and mobile interfaces.
+10.Reduction of recurring frontend issues.
+11.Effective collaboration with backend, design, QA, and product teams.
+12.Ability to understand and contribute to existing codebases.
+? Compensation & Benefits
+✔ Competitive salary based on:
+1.Relevant frontend development experience
+2.JavaScript skills
+3.React.js and React Native technical knowledge
+4.API integration experience
+5.State-management knowledge
+6.WebSocket and real-time development skills
+7.Practical project experience
+8.Interview performance
+9.Overall suitability for the role
+Benefits
+✔ Provident Fund
+✔ Learning and career growth opportunities
+✔ Exposure to real-world web and mobile development projects
+✔ Hands-on experience with React.js and React Native
+✔ Collaborative and supportive work environment
+✔ Opportunity to work with Backend, Design, QA, and Product teams

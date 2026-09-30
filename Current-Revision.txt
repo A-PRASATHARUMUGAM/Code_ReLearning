@@ -1,0 +1,679 @@
+Priority 1 — Your Core Full-Stack Skills 🔥🔥🔥🔥🔥
+
+You need to be able to build and explain a complete application.
+
+                            1. JavaScript
+
+Know these very well:
+
+let, const, scope
+Functions
+Arrow functions
+Objects/arrays
+map, filter, reduce
+Destructuring
+Spread/rest
+Closures
+Promises
+async/await
+Event loop
+Error handling
+Modules
+ES6+
+Basic performance concepts
+TypeScript
+
+Know:
+
+Types vs interfaces
+Union/intersection
+Generics
+Enums
+Utility types
+Type narrowing
+Optional properties
+Function typing
+API response typing
+DTOs
+
+Don't just memorize. Be able to write code.
+
+
+
+                            2. React 🔥🔥🔥🔥🔥
+
+Prepare:
+
+Components
+Props
+State
+useState
+useEffect
+useMemo
+useCallback
+useRef
+Custom hooks
+Context API
+Forms
+API calls
+Error/loading states
+Authentication
+Protected routes
+Component architecture
+Performance optimization
+
+Be ready for:
+
+"How would you structure a large React application?"
+
+For example:
+
+src/
+ ├── components/
+ ├── pages/
+ ├── hooks/
+ ├── services/
+ ├── contexts/
+ ├── types/
+ ├── utils/
+ └── features/
+
+
+
+                            3. Node.js + REST API 🔥🔥🔥🔥🔥
+
+This is very important for this JD.
+
+Know:
+
+Express
+Routing
+Controllers
+Services
+Middleware
+Validation
+Authentication
+Authorization
+JWT
+Error handling
+HTTP status codes
+REST principles
+Pagination
+Filtering
+Sorting
+API versioning
+Logging
+Rate limiting — basic
+CORS
+
+Understand this architecture:
+
+Request
+   ↓
+Route
+   ↓
+Controller
+   ↓
+Service
+   ↓
+Repository
+   ↓
+Database
+
+And be able to explain why you separate these layers.
+
+
+4. SQL + Database 🔥🔥🔥🔥
+
+Prepare:
+
+SELECT
+WHERE
+JOIN
+GROUP BY
+HAVING
+Subqueries
+Aggregations
+INSERT/UPDATE/DELETE
+Primary keys
+Foreign keys
+Indexes
+Transactions
+Normalization
+Query optimization
+
+Especially practice:
+
+"Why is this query slow?"
+
+"Which index would you add?"
+
+"How would you design the database for this application?"
+
+
+
+5. Software Engineering Principles 🔥🔥🔥🔥🔥
+
+This is where the JD becomes different from an ordinary Full Stack job.
+
+They specifically mention:
+
+Design Patterns
+BDD/TDD
+Strong debugging
+Paradigms & principles
+Software techniques over tools
+
+So prepare:
+
+SOLID
+
+Know all five:
+
+S — Single Responsibility
+O — Open/Closed
+L — Liskov Substitution
+I — Interface Segregation
+D — Dependency Inversion
+
+Also:
+
+DRY
+KISS
+YAGNI
+Separation of concerns
+Loose coupling
+High cohesion
+Composition
+Clean Code
+
+But don't learn them as definitions only.
+
+You should be able to look at bad code and explain:
+
+"What is wrong here and how would you refactor it?"
+
+
+
+6. Design Patterns 🔥🔥🔥🔥🔥
+
+Start with these:
+
+Must know
+Factory
+Strategy
+Observer
+Adapter
+Repository
+Dependency Injection
+MVC
+Service Layer
+
+For your Node.js background, understand this particularly well:
+
+Controller
+     ↓
+Service
+     ↓
+Repository
+     ↓
+Database
+
+Be ready for:
+
+"Why shouldn't the controller directly access the database?"
+
+
+
+7. Debugging 🔥🔥🔥🔥🔥
+
+Don't underestimate this.
+
+The JD explicitly asks for strong debugging ability.
+
+Practice debugging:
+
+Frontend
+React state bugs
+Infinite useEffect
+Incorrect dependencies
+API failures
+CORS
+Rendering issues
+Authentication problems
+Backend
+500 errors
+Async errors
+Database errors
+JWT problems
+Validation errors
+Incorrect API responses
+General approach
+
+Memorize the process:
+
+Understand problem
+      ↓
+Reproduce
+      ↓
+Check logs/error
+      ↓
+Isolate the component
+      ↓
+Find root cause
+      ↓
+Fix
+      ↓
+Test
+      ↓
+Prevent regression
+
+They may give you broken code and ask you to find the problem.
+
+
+
+
+8. Testing — TDD + BDD 🔥🔥🔥🔥
+
+The JD explicitly mentions this.
+
+TDD
+
+Understand:
+
+RED
+ ↓
+Write failing test
+
+GREEN
+ ↓
+Make test pass
+
+REFACTOR
+ ↓
+Improve code
+
+Learn:
+
+Unit tests
+Integration tests
+Mocking
+Assertions
+Edge cases
+
+With JavaScript/TypeScript, know the basics of Jest or Vitest.
+
+BDD
+
+Understand:
+
+Given
+When
+Then
+
+Example:
+
+Given a logged-in user
+
+When the user requests their profile
+
+Then the API should return the user's profile
+
+
+
+9. AI Development 🔥🔥🔥🔥🔥
+
+This is very important for Forward AI.
+
+You don't need to become an ML engineer.
+
+You should understand how to build software using AI capabilities.
+
+Learn:
+
+LLM basics
+What is an LLM?
+Tokens
+Context window
+Temperature
+System/user prompts
+Structured output
+JSON output
+Function/tool calling
+AI APIs
+
+Understand a flow like:
+
+React
+ ↓
+Node.js API
+ ↓
+AI API
+ ↓
+LLM
+ ↓
+Structured response
+ ↓
+Node.js
+ ↓
+React
+
+
+10. RAG 🔥🔥🔥🔥
+
+Learn the basic architecture:
+
+Documents
+   ↓
+Chunking
+   ↓
+Embeddings
+   ↓
+Vector Database
+   ↓
+Similarity Search
+   ↓
+Relevant Context
+   ↓
+LLM
+   ↓
+Answer
+
+Know:
+
+Embeddings
+Vector database
+Chunking
+Retrieval
+Context
+RAG
+Hallucination
+
+You don't need deep mathematical knowledge.
+
+
+12. MCP 🔥🔥🔥
+
+Because Forward AI roles can involve modern AI tooling, understand Model Context Protocol at a high level.
+
+Know:
+
+What MCP is
+Why it exists
+MCP client
+MCP server
+Tools
+Resources
+How an AI model can interact with external systems
+
+You don't need to become an MCP protocol expert before the first interview.
+
+
+13. AI Coding Tools 🔥🔥🔥🔥🔥
+
+The JD specifically names:
+
+Cursor
+Claude
+ChatGPT
+GitHub Copilot
+Gemini
+Claude Code
+
+But here's the important part:
+
+Don't prepare:
+
+"I know ChatGPT."
+
+Prepare:
+
+"How do you use AI during software development?"
+
+For example:
+
+Requirement
+ ↓
+Ask AI to analyze requirements
+ ↓
+Create technical specification
+ ↓
+Review architecture myself
+ ↓
+Generate initial implementation
+ ↓
+Review code
+ ↓
+Run tests
+ ↓
+Debug
+ ↓
+Refactor
+ ↓
+Document
+
+They may ask:
+
+"How do you make sure AI-generated code is correct?"
+
+A good engineering answer involves:
+
+Reviewing generated code
+Understanding dependencies
+Running tests
+Checking edge cases
+Security review
+Performance review
+Static analysis
+Manual validation   
+
+
+14. SDD / Spec-Driven Development 🔥🔥🔥🔥
+
+This is specifically mentioned in your JD.
+
+Understand:
+
+Requirement
+      ↓
+Specification
+      ↓
+Architecture
+      ↓
+Implementation
+      ↓
+Tests
+      ↓
+Review
+      ↓
+Deployment
+
+The important idea is:
+
+Don't immediately ask AI to generate the entire application. Give it a clear specification and work incrementally.
+
+This is highly relevant to AI-assisted development.
+
+
+
+15. BMAD 🔥🔥🔥
+
+Since your JD explicitly says BMAD, learn what it means in the context of AI-assisted software development and how it structures development work.
+
+Don't spend days on it.
+
+Your goal initially is:
+
+Understand the workflow and terminology well enough to discuss how you would use it.
+
+
+
+16. System Design 🔥🔥🔥🔥
+
+You don't need senior-level distributed systems preparation yet.
+
+Focus on:
+
+API design
+Database design
+Authentication
+Scalability basics
+Caching
+Queues — basic
+Docker
+Microservices — concept
+Cloud architecture — concept
+
+For example:
+
+"Design an AI document-question-answering application."
+
+You should be able to draw:
+
+              React
+                │
+                ▼
+           API Gateway
+                │
+                ▼
+          Backend API
+          /         \
+         /           \
+        ▼             ▼
+   PostgreSQL       AI Service
+                       │
+                       ▼
+                 Vector DB
+                       │
+                       ▼
+                      LLM
+
+
+
+                    17. Git 🔥🔥🔥🔥
+
+Know:
+
+git clone
+git status
+git add
+git commit
+git pull
+git push
+git branch
+git checkout
+git switch
+git merge
+git rebase
+git stash
+
+And understand:
+
+Pull requests
+Code reviews
+Merge conflicts
+Branching strategy
+18. Agile 🔥🔥🔥
+
+Basic understanding:
+
+Sprint
+Backlog
+User story
+Task
+Stand-up
+Sprint planning
+Review
+Retrospective
+Code review
+
+You should also be able to describe how you worked in your previous company.
+
+
+                19. Your own projects 🔥🔥🔥🔥🔥
+
+This is extremely important for you.
+
+Don't spend all your time learning new technologies.
+
+You need to be able to explain your existing projects deeply.
+
+For your Rotary PortAI project, for example, prepare:
+
+Architecture
+React + TypeScript
+       ↓
+REST API
+       ↓
+Node.js + Express
+       ↓
+Service Layer
+       ↓
+Prisma
+       ↓
+MySQL
+
+Be ready to explain:
+
+Why React?
+Why TypeScript?
+Why Node?
+Why Prisma?
+Why MySQL?
+Authentication
+RBAC
+API design
+Database design
+Error handling
+File uploads
+PDF generation
+Testing
+Debugging
+Security
+Deployment
+
+If you can explain one serious project deeply, that will help much more than memorizing 100 interview definitions.
+
+🧠 Your preparation order
+
+If you have limited time, do it in this order:
+
+Phase 1 — Core
+
+JavaScript → TypeScript → React → Node → REST API → SQL
+
+Phase 2 — Engineering
+
+SOLID → Clean Code → Design Patterns → Architecture → Debugging
+
+Phase 3 — Testing
+
+Jest/Vitest → Unit Testing → Integration Testing → TDD → BDD
+
+Phase 4 — AI
+
+LLM → AI APIs → Prompting → Structured Output → RAG → Agents → MCP
+
+Phase 5 — Modern development
+
+Cursor → Claude Code → Copilot → SDD → BMAD
+
+Phase 6 — Interview
+
+Project explanation → Coding → Debugging → System Design → HR
+
+
+
+
+⭐ If you have only 7 days
+
+Don't try to learn everything equally.
+
+Day	Focus
+Day 1	JavaScript + TypeScript
+Day 2	React + Node.js
+Day 3	REST API + SQL + Authentication
+Day 4	SOLID + Design Patterns + Architecture
+Day 5	Debugging + TDD/BDD
+Day 6	LLM + RAG + Agents + MCP + AI tools
+Day 7	Your projects + coding questions + mock interview
