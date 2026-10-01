@@ -27,7 +27,7 @@ const Counter = () => {
 
     return (
         <>
-            <section className="text-white">
+            <section >
                 <button onClick={increment}>+</button>
 
                 <div>Counter {count}</div>
