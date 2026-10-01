@@ -1,0 +1,42 @@
+export const studentData = [
+  {
+    id: 1,
+    name: "Prasath",
+    age: 22,
+    department: "Computer Science",
+    email: "prasath@gmail.com",
+    mark: 85,
+  },
+  {
+    id: 2,
+    name: "Karthik",
+    age: 21,
+    department: "Information Technology",
+    email: "karthik@gmail.com",
+    mark: 78,
+  },
+  {
+    id: 3,
+    name: "Arun",
+    age: 23,
+    department: "Computer Science",
+    email: "arun@gmail.com",
+    mark: 92,
+  },
+  {
+    id: 4,
+    name: "Divya",
+    age: 21,
+    department: "Electronics",
+    email: "divya@gmail.com",
+    mark: 88,
+  },
+  {
+    id: 5,
+    name: "Priya",
+    age: 22,
+    department: "Information Technology",
+    email: "priya@gmail.com",
+    mark: 74,
+  },
+];

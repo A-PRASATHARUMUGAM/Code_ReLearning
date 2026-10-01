@@ -3,6 +3,8 @@ import Counter from './components/Counter'
 import DataComp from './components/DataComp'
 import UseEffect from './components/UseEffect'
 import LoginForm from './components/ref/LoginForm'
+import Students from './components/context/students'
+
 
 function App() {
 
@@ -12,7 +14,9 @@ function App() {
       {/* <Counter /> */}
       {/* <DataComp /> */}
       {/* <UseEffect /> */}
-      <LoginForm />
+      {/* <LoginForm /> */}
+      <Students />
+
     </>
   )
 }
