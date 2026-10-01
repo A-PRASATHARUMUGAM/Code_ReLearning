@@ -1,0 +1,13 @@
+
+-- Hooks -- 
+
+1. useState 
+2. useEffect - Do Something After Rendering 
+3. useRef
+    - useRef is a React Hook used to persist a value across renders without causing a   re-render when the value changes. 
+    - It is commonly used to access DOM elements directly, such as focusing an input, and to store values like timer IDs
+    - unControlled Input  
+    - I need to remember this, but my UI doesn't need to re-render
+
+4. useContext - Avoide prop drilling    - Centerilized Data to use Multiple Components  
+5. 
