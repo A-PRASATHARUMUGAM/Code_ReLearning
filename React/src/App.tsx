@@ -2,7 +2,7 @@ import './index.css'
 import Counter from './components/Counter'
 import DataComp from './components/DataComp'
 import UseEffect from './components/UseEffect'
-
+import LoginForm from './components/ref/LoginForm'
 
 function App() {
 
@@ -11,7 +11,8 @@ function App() {
     <>
       {/* <Counter /> */}
       {/* <DataComp /> */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+      <LoginForm />
     </>
   )
 }

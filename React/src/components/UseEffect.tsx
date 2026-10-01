@@ -47,13 +47,27 @@ const [loading2,setLoading2] = useState(true);
 
 // Using Axios API 
  useEffect(() => {  
+ 
   const fetchUsers2 = async () =>{
+
+    try{
     const res = await axios.get("https://api.github.com/users");
     console.log(res);
     setUser2(res.data);
+    }catch(error){
+      console.log(error);
+      
+    }finally{
+        setLoading2(false)
+    }
+
   }
+
+
+
+
   fetchUsers2();
-  setLoading2(false)
+
 },[]);
 
 
