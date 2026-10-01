@@ -8,8 +8,9 @@ const DataComp = () => {
 
   return (
     <div>
+         <hr />
             <h1>Data Comp</h1>
-       <h1>------------------------------</h1>
+        <hr />
 
 
             {product.map((pro,index)=>{

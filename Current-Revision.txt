@@ -44,20 +44,25 @@ Don't just memorize. Be able to write code.
 
 Prepare:
 
-Components
+Components - Complete
+
 Props
-State
+State   
+
 useState
 useEffect
+
 useMemo
 useCallback
 useRef
 Custom hooks
 Context API
+
 Forms
 API calls
 Error/loading states
 Authentication
+
 Protected routes
 Component architecture
 Performance optimization
