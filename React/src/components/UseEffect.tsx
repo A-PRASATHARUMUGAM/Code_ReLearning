@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useState, useEffect } from "react";
 
 const UseEffect = () => {
@@ -15,6 +16,11 @@ const UseEffect = () => {
 const [user,setUser]=useState([]);
 const [loading,setLoading] = useState(true);
 
+// Use Axios 
+const [user2,setUser2]=useState([]);
+const [loading2,setLoading2] = useState(true);
+
+// Using fetch API 
  useEffect(() => {
     console.log("UseEffect Mounted");
     setTimeout(() => {
@@ -29,7 +35,7 @@ const [loading,setLoading] = useState(true);
     try{
       const users = await fetch("https://api.github.com/users")
       .then(res=>res.json())
-         console.log(users);
+      console.log(users);
        setUser(users)
     }
     catch(error){
@@ -37,6 +43,20 @@ const [loading,setLoading] = useState(true);
     }
 
   }
+
+
+// Using Axios API 
+ useEffect(() => {  
+  const fetchUsers2 = async () =>{
+    const res = await axios.get("https://api.github.com/users");
+    console.log(res);
+    setUser2(res.data);
+  }
+  fetchUsers2();
+  setLoading2(false)
+},[]);
+
+
 
 if(loading){
 
@@ -60,7 +80,7 @@ if(!loading){
       <h1>Counter2 : {count2}</h1>
       <button onClick={handleIncrement2}>+</button>
 
-      <h1>User List</h1>
+      <h1>User List 1 </h1>
       <hr />
       {user.map((user)=>{
 
@@ -79,8 +99,31 @@ if(!loading){
 
       })}
       
+      <h1>User List 2 </h1>
+      <hr />
+      {user2.map((user)=>{
+
+        const {login,id} =user;
+
+        return <div key={id}>  
+
+          <ul>
+
+            <li>Id: {id}</li> 
+            <li>Name: {login}</li>
+
+          </ul>
+  
+            </div>
+
+      })}
+      
     </div>
+
+
   );
+
+
 
 }
 
