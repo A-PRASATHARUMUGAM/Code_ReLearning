@@ -112,3 +112,21 @@ Debouncing
 Throttling
 Memory leaks
 Shallow vs deep copy
+
+
+## React JS ##
+
+
+useEffect 
+useRef 
+ 
+useContext 
+useReducer 
+useCallback
+
+useMemo  
+useTransition 
+Custom Hook 
+
+
+
