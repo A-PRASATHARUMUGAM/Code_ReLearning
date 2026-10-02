@@ -1,0 +1,34 @@
+
+-- Hooks -- 
+
+1. useState 
+2. useEffect - Do Something After Rendering 
+3. useRef
+    - useRef is a React Hook used to persist a value across renders without causing a   re-render when the value changes. 
+    - It is commonly used to access DOM elements directly, such as focusing an input, and to store values like timer IDs
+    - EX: unControlled Input  
+    - I need to remember this, but my UI doesn't need to re-render
+
+4. useContext - Avoide prop drilling   - Centerilized Data to use Multiple Components  
+
+
+5. useReducer - React Hook used to manage complex state logic in a more organized way.
+
+6. useCallback 
+            - is a React Hook used to remember a function between renders.  function-ஐ unnecessarily recreate ஆகாமல் நினைவில் வைத்திருக்கும்.
+
+7. useMemo     - remembers a calculated value so React doesn't recalculate it unnecessarily on every render.
+
+8. useTransition 
+        - lets us mark some state updates as non-urgent so the UI can remain responsive.
+        -useTransition is a React Hook used to mark state updates as non-urgent transitions, allowing React to keep the UI responsive while processing expensive updates."
+
+
+9. Custom Hook - A Custom Hook is a reusable function that contains React Hook logic.
+
+Instead of writing the same logic in multiple components, we can create one custom hook and reuse it.
+
+
+
+
+

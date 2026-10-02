@@ -120,13 +120,10 @@ useState      - Completed
 useEffect     - Completed 
 useRef        - Completed     
  
-useContext 
-useReducer 
-useCallback
+useContext    - Completed 
+useReducer    - Completed 
+useCallback   - Completed 
 
-useMemo  
-useTransition 
+useMemo       - Completed
+useTransition - 
 Custom Hook 
-
-
-
