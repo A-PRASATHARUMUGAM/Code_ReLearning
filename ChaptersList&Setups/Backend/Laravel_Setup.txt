@@ -1,0 +1,79 @@
+
+--- 1. First: Create the Laravel project  ---
+
+        1. Install Wamp > It included   php -v &  composer -V 
+        2. Set Environment Variables -> C:\wamp64\bin\php\php8.5.0
+        3. Install Composser
+                        •   C:\wamp64\bin\php\php8.5.0   >   php.ini  > Open with Notepad 
+                        •   Disable  -> zend_extension  add (;) Before 
+        4. composer create-project laravel/laravel project-name 
+        5. cd project-name 
+        6. php artisan serve -> http://127.0.0.1:8000 
+
+
+
+--- 2. Configure MySQL  ---
+
+
+- Create a database:
+
+CREATE DATABASE student_api;
+
+- Open .env:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=student_api
+DB_USERNAME=root
+DB_PASSWORD=
+
+
+
+--- 3. Create Model + Migration ---
+
+- Run 
+    php artisan make:model Student -m
+
+
+- This Create
+app/Models/Student.php
+database/migrations/xxxx_create_students_table.php
+
+
+- Open the migrations
+- Create 
+
+Schema::create('students', function (Blueprint $table) {
+    $table->id();
+    $table->string('name');
+    $table->string('email')->unique();
+    $table->integer('age');
+    $table->string('course');
+    $table->timestamps();
+});
+
+- Then Run 
+    php artisan migrate 
+
+
+
+
+
+
+
+
+
+--------------------------
+## All Laravel Commands ##
+--------------------------
+
+- php artisan serve 
+- php artisan config:clear 
+- php artisan make:model Student -m
+- php artisan migrate 
+
+
+
+
+
