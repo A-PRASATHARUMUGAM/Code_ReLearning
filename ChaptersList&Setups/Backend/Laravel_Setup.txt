@@ -57,7 +57,40 @@ Schema::create('students', function (Blueprint $table) {
     php artisan migrate 
 
 
+--- 4. Add for this Database ---
 
+- Provider/AppServiceProvider > 
+
+public function boot(): void
+{
+    Schema::defaultStringLength(191);
+}
+
+migrations > failedjobs > connect and queue -> add (120)
+
+
+
+
+--- 5. Configure Eloquent Model ---
+
+- Eloquent is Laravel's ORM. It allows us to interact with database tables using PHP models instead of writing SQL for every operation.
+
+
+-> app/Models/Student.php
+
+class Student extends Model
+{
+    protected $fillable = [
+        'name',
+        'email',
+        'age',
+        'course'
+    ];
+}
+
+5. Create Controller
+
+- php artisan make:controller StudentController
 
 
 
@@ -72,6 +105,9 @@ Schema::create('students', function (Blueprint $table) {
 - php artisan config:clear 
 - php artisan make:model Student -m
 - php artisan migrate 
+- php artisan migrate:fresh 
+- php artisan make:controller StudentController
+- php artisan install:api
 
 
 
