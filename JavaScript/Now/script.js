@@ -260,19 +260,96 @@
 //1. while 
 //2. do while
 //3. for 
-//4. for of 
-//5. for in 
+//4. for of - it is getting value from array 
+//5. for in  - it is getting vlaues form object 
 
 
+
+
+// function myfunction(){
+//         // let i = 1
+//         // while (i<=10){
+
+//         //     console.log(i);
+//         //     i++;
+//         // }
+
+//         // do{
+//         //     console.log(i)
+//         //     i++;
+//         // }while(i<=10)
+
+//         // for(let i=0;i<=10;i++){
+//         //     console.log(i);
+            
+//         // }
+
+        
+// }
+
+// myfunction();
+
+// for of
+// let arr=[1,2,3,4,5,6];
+
+
+// for(val of arr){
+
+//     console.log(val);
+    
+// }
+
+
+// for in 
+
+// let obj1={fname:"Prasath", age:22};
+
+
+// for(let val in obj1){
+
+
+//     console.log(val, obj1[val]);
+    
+// }
 
 
 
                                 // Types of Function 
 
-// 1. Function Declaration 
+// 1. Function Declaration - we can inilize before 
 // 2. Function as expression or variable function 
 // 3. Arrow Function 
 
 
 
+// 1. Function Declaration 
 
+// function myfunction(){
+//     console.log("function declaration");
+    
+// }
+
+// myfunction();
+
+// 2. Function as expression or variable function 
+
+
+
+// let myfunction2 = function(){
+
+
+//     console.log("Function Expression");
+    
+// }
+// myfunction2();
+
+
+// 3. Arrow Function 
+
+// let myfunction3 = ()=>{
+
+//     console.log("Arrow Function");
+    
+// }
+
+// myfunction3();
