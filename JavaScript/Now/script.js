@@ -314,7 +314,7 @@
 
 
 
-                                // Types of Function 
+                                //10. Types of Function 
 
 // 1. Function Declaration - we can inilize before 
 // 2. Function as expression or variable function 
@@ -353,3 +353,35 @@
 // }
 
 // myfunction3();
+
+                        // 11. Build in Math Function 
+
+console.log(Math.max(1,2,3,4,5))
+console.log(Math.min(1,2,3,4,5))
+console.log(Math.floor(Math.random()*10+1));
+
+
+
+// String Function 
+
+let firstName = "Prasath";
+let lastName= "Arumugam";
+
+console.log(firstName,lastName);
+console.log(firstName.concat(lastName));
+
+console.log(firstName.length);
+
+console.log(firstName.toUpperCase());
+console.log(firstName.toLowerCase());
+
+console.log(firstName.indexOf("a"));
+console.log(firstName.charAt(0));
+
+
+
+
+
+
+
+
