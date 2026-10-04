@@ -21,10 +21,10 @@ Error handling
 Modules
 ES6+
 Basic performance concepts
+
+
 TypeScript
-
 Know:
-
 Types vs interfaces
 Union/intersection
 Generics

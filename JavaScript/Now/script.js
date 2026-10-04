@@ -101,7 +101,7 @@
 
 
 
-                                // 4. Destructuring  in JavaScript 
+                                // 5. Array and Object Destructuring  in JavaScript 
 
 // let final = [...arr1,...arr2]
 
@@ -150,25 +150,129 @@
 
 
 
-
-//4. Different Types of Function 
-
+// Conditional 
 
 
-//  Function declaration  
-// function myfunction1(val){
+// let result = 1 >= 1  ? "true":"false";
 
-//     val.forEach(({fname,age})=>{
-              
-//         // let {fname,age}= arg
+// console.log(result);
 
-//         console.log(fname,age);
-                 
-//     })
+
+// 7. Type Conversion 
+
+
+// Number to String 
+// let Num= 10 
+
+// let result = Num.toString();
+// let result2 = String(Num)
+
+// console.log(result);
+// console.log(result2);
+
+// String to Number 
+// let str = "10.2"
+// let res1 = Number(str);
+// let res = parseInt(str);
+// let res2 = parseFloat(str);
+
+// console.log(res1);
+// console.log(res);
+// console.log(res2);
+
+// let floatValue = 10.1212
+
+// console.log(floatValue.toFixed());
+// console.log(typeof(floatValue));
+
+// 1. Type Conversion - You convert it ; vs   
+// Ex: Number("12") = 12 ;    
+
+// 2. Type Coercion - JavaScript Convert it automatically 
+// Ex: "100" *2 = 200 
+
+                            //8. Controle flow Statement 
+// 1.if
+// 2. ifelse 
+// 3. else if 
+// 4. Nested if 
+// 5. Switch Statement 
+
+
+// if and if else 
+// if(false){
+
+//     console.log("It is true");
+    
+// }else{
+
+//     console.log("It is false ");
+    
+// }
+
+
+// else if 
+
+// if(false){
+//     console.log("It is check 1");
+    
+// }else if(false){
+//     console.log("It is check 2 ");
+// }else{
+//     console.log("It is check 3 ");
+// }
+
+
+// nested if 
+
+// if(true){
+
+//     if(true){
+//         console.log("ture");
+        
+//     }
+// }
+
+// Switch Statement 
+
+// let result = "Tuesday"
+
+
+// switch(result){
+
+// case "Monday":
+// console.log("Go to beach");
+// break;
+
+// case "Tuesday":
+// console.log("Go to Hotel");
+// break;
+
+// default:
+// console.log("Nothing");
+// break; 
+
 
 // }
 
-// myfunction1(obj1)
+
+// 	9. Looping in JavaScript 
+//1. while 
+//2. do while
+//3. for 
+//4. for of 
+//5. for in 
 
 
-                               
+
+
+
+                                // Types of Function 
+
+// 1. Function Declaration 
+// 2. Function as expression or variable function 
+// 3. Arrow Function 
+
+
+
+
