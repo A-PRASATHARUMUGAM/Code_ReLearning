@@ -32,3 +32,23 @@ Instead of writing the same logic in multiple components, we can create one cust
 
 
 
+
+-- JavaScript --
+
+1. Difference Between Spread and Rest Operators 
+
+    - Spread = Expand 📤 | Rest = Collect 📥
+    - Spread is mainly used for copying/merging, while rest is commonly used in function parameters and destructuring.
+
+    // SPREAD
+    const arr = [1, 2, 3];
+    const copy = [...arr];
+    //             ↑ expands
+
+
+    // REST
+    function test(...args) {
+    //          ↑ collects
+    }
+
+

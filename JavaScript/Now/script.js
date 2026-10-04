@@ -356,32 +356,121 @@
 
                         // 11. Build in Math Function 
 
-console.log(Math.max(1,2,3,4,5))
-console.log(Math.min(1,2,3,4,5))
-console.log(Math.floor(Math.random()*10+1));
+// console.log(Math.max(1,2,3,4,5))
+// console.log(Math.min(1,2,3,4,5))
+// console.log(Math.floor(Math.random()*10+1));
 
 
 
 // String Function 
 
-let firstName = "Prasath";
-let lastName= "Arumugam";
+// let firstName = "Prasath";
+// let lastName= "Arumugam";
 
-console.log(firstName,lastName);
-console.log(firstName.concat(lastName));
+// console.log(firstName,lastName);
+// console.log(firstName.concat(lastName));
 
-console.log(firstName.length);
+// console.log(firstName.length);
 
-console.log(firstName.toUpperCase());
-console.log(firstName.toLowerCase());
+// console.log(firstName.toUpperCase());
+// console.log(firstName.toLowerCase());
 
-console.log(firstName.indexOf("a"));
-console.log(firstName.charAt(0));
+// console.log(firstName.indexOf("a"));
+// console.log(firstName.charAt(0));
 
-
-
-
+// console.log(lastName.includes("A"));
 
 
+// 14. Spread Operator & Rest Operator 
+
+// it is Expend 
+// let arr = [1,2,3,4]
+
+// let arr2=[...arr,5,6,7];
 
 
+// console.log(arr2);
+
+// Collect the value  = Collect 
+// let myfunction = (...val)=>{
+
+//     console.log(val);
+    
+
+// }
+
+// myfunction(arr);
+
+
+// function factorial(n){
+
+// if(n==1){
+//     return 1;
+// }
+
+
+
+//   return n*factorial(n-1);
+// }
+
+// console.log(factorial(5))
+
+
+
+
+// 1. Function passed as a arugument that called callback function 
+
+
+
+// let myfunction = (name)=>{
+
+//   console.log("Hello",name);
+  
+
+// }
+
+
+
+// let greet =(callback)=>{
+//        callback("Prasath")
+// }
+
+
+// greet(myfunction);
+
+
+arr2d = [
+    ["a","b","c"],
+    ["c","d","f"],
+    ["d","f","g"],
+
+]
+
+// result ={a:1,b:1,c:2,d:2}
+
+
+
+// Clouser
+
+// function outer(name){
+//     let outerVariable = "Outer Variable"
+
+//     function inner(){
+//     let innerVariable="inner Variable"
+//         console.log(outerVariable);
+//         console.log(innerVariable);
+//         console.log(name);
+//     }
+
+//     return inner;
+
+// }
+
+// let call1 = outer("Prasath");
+
+// call1();
+
+// let call2 = outer("Kandhan");
+
+// call2();
+// call1();
