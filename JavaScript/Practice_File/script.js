@@ -23,6 +23,7 @@ let [one,two,three] = arr1;
 console.log(one,two,three);
 
 
+console.log("Hello World");
 
 
 
