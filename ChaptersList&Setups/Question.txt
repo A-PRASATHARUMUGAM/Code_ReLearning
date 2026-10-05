@@ -52,3 +52,10 @@ Instead of writing the same logic in multiple components, we can create one cust
     }
 
 
+
+1. callback function - Function passed as the argument
+2. higher orderfunction - function return the the function
+3. recursion - function calling itself
+5. lexcial scoping - outer function variable can access to inner 
+6. clouser - outer function is already run out but inner function is bind the outer variable to retrun it  
+7. Hosting - before call the function 
