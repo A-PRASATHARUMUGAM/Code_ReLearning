@@ -13,4 +13,12 @@ class UserManagement extends Model
         "email",
         "phone"
      ];
+
+     public $fillable=[
+        "firstname",
+        "lastname",
+        "age",
+        "email",
+        "phone"
+     ];
 }
