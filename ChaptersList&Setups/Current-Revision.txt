@@ -6,7 +6,7 @@ You need to be able to build and explain a complete application.
 
 Know these very well:
 
-let, const, scope
+let, const, scope 
 Functions
 Arrow functions
 Objects/arrays
