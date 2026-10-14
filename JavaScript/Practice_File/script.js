@@ -29,3 +29,25 @@ console.log("Hello World");
 
 
 
+// Object Destructureing 
+let {fname,age} = ob1;
+console.log(fname,age);
+
+
+// Array Destructuring 
+
+// Normal Array Getting 
+let arr1 = [10,11,12]
+    // console.table(arr1[0]);
+    // console.table(arr1[1]);
+
+let [one,two,three] = arr1;
+console.log(one,two,three);
+
+
+console.log("Hello World");
+
+
+
+
+
