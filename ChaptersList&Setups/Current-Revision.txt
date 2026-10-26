@@ -103,7 +103,7 @@ JWT
 Error handling
 HTTP status codes
 REST principles
-Pagination
+Pagination  
 Filtering
 Sorting
 API versioning
