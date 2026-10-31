@@ -474,3 +474,26 @@ arr2d = [
 
 // call2();
 // call1();
+
+// function outer(name){
+//     let outerVariable = "Outer Variable"
+
+//     function inner(){
+//     let innerVariable="inner Variable"
+//         console.log(outerVariable);
+//         console.log(innerVariable);
+//         console.log(name);
+//     }
+
+//     return inner;
+
+// }
+
+// let call1 = outer("Prasath");
+
+// call1();
+
+// let call2 = outer("Kandhan");
+
+// call2();
+// call1();
